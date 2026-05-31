@@ -1,3 +1,4 @@
+"use client";
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Star, ChevronLeft, ChevronRight, MessageSquare, ShieldCheck } from 'lucide-react';
@@ -13,27 +14,21 @@ interface Review {
 const MECHANIC_REVIEWS: Review[] = [
   {
     id: 1,
-    name: 'Jamman Cliff',
+    name: 'Christopher Walsh',
     rating: 5,
-    text: "Dylan did an excellent job on my alternator. Highly recommend him he's kind respectful in very polite, in knows how to get the job done."
+    text: "Excellent. Very responsive. My car's a/c was hardly working at all anymore, especially on the hottest days. Reho auto didn't have any available appointments for another two weeks, so i started looking for other mechanics."
   },
   {
     id: 2,
-    name: 'Sarah M.',
+    name: 'Aynur K.',
     rating: 5,
-    text: "If you need mechanic work done I highly recommend giving him a call. He came to my driveway and fixed my brakes the same day."
+    text: "Good job. Very satisfied."
   },
   {
     id: 3,
-    name: 'Mark T.',
+    name: 'Christine Endlich',
     rating: 5,
-    text: "Nicest best mobile mechanic there is very knowledgeable great service. Also, his prices are very reasonable compared to the dealership."
-  },
-  {
-    id: 4,
-    name: 'David R.',
-    rating: 5,
-    text: "Fast and professional. Diagnosed my check engine light and replaced the faulty sensor in no time. Great to have a reliable mechanic who comes to you."
+    text: "Great fast accurate Afforable service. Will definitely use them again and recommend them to family and friends."
   }
 ];
 
@@ -58,7 +53,7 @@ export const ReviewsSection: React.FC = () => {
           Real Reviews
         </h2>
         <p style={{ color: 'var(--text-secondary)', fontSize: '15px', lineHeight: '1.5', margin: 0 }}>
-          Read what our customers are saying. 14 perfect 5-star reviews on Google Maps.
+          Read what our customers are saying. 16 perfect 5-star reviews on Google Maps.
         </p>
       </div>
 
@@ -90,7 +85,7 @@ export const ReviewsSection: React.FC = () => {
         }}>
           <ShieldCheck size={20} color="var(--success)" />
           <div>
-            <div style={{ fontSize: '24px', fontWeight: 800, color: 'var(--navy)', lineHeight: 1.1 }}>14+</div>
+            <div style={{ fontSize: '24px', fontWeight: 800, color: 'var(--navy)', lineHeight: 1.1 }}>16</div>
             <div style={{ fontSize: '11px', color: 'var(--text-secondary)', fontWeight: 600, textTransform: 'uppercase' }}>Verified Reviews</div>
           </div>
         </div>

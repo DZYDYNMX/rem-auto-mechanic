@@ -16,7 +16,7 @@ export const Footer: React.FC = () => {
       gap: '8px'
     }}>
       <div style={{ fontSize: '14px', fontWeight: 700, color: 'var(--navy)' }}>
-        Peninsula Mobile Mechanic
+        REM Auto Mobile Mechanic
       </div>
       <div style={{ fontSize: '13px', color: 'var(--text-secondary)' }}>
         © 2026 All Rights Reserved.

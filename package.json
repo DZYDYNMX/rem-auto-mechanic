@@ -1,17 +1,20 @@
 {
-  "name": "peninsula-mechanic-react",
+  "name": "rem-auto-mechanic",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
+    "@fontsource/barlow-condensed": "^5.2.8",
+    "@fontsource/inter": "^5.2.8",
     "framer-motion": "^12.40.0",
     "lucide-react": "^1.16.0",
+    "next": "^16.2.6",
     "react": "^19.2.6",
     "react-dom": "^19.2.6"
   },
@@ -25,6 +28,7 @@
     "eslint-plugin-react-hooks": "^7.1.1",
     "eslint-plugin-react-refresh": "^0.5.2",
     "globals": "^17.6.0",
+    "sharp": "^0.34.5",
     "typescript": "~6.0.2",
     "typescript-eslint": "^8.59.2",
     "vite": "^8.0.12"

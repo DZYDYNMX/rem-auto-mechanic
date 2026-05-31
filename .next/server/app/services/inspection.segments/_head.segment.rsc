@@ -1,0 +1,5 @@
+1:"$Sreact.fragment"
+2:I[67028,["/_next/static/chunks/0fppy8z1i.p8u.js","/_next/static/chunks/00mrs~vn8np7i.js","/_next/static/chunks/0z._62wc1usc-.js"],"ViewportBoundary"]
+3:I[67028,["/_next/static/chunks/0fppy8z1i.p8u.js","/_next/static/chunks/00mrs~vn8np7i.js","/_next/static/chunks/0z._62wc1usc-.js"],"MetadataBoundary"]
+4:"$Sreact.suspense"
+0:{"rsc":["$","$1","h",{"children":[null,["$","$L2",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L3",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Pre-Purchase Used Car Inspections | REM Auto"}],["$","meta","1",{"name":"description","content":"Professional, on-site pre-purchase used car inspections right in your driveway. Transparent pricing and expert service in Rehoboth Beach, Delaware."}]]}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"HgyTBmjgGEdJOkQtWf7Gg"}

@@ -1,0 +1,3 @@
+module.exports=[66528,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(21896);a.n(d("[project]/.gemini/antigravity/scratch/rem-auto-mechanic/node_modules/next/dist/client/components/builtin/global-error.js <module evaluation>"))},89441,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(21896);a.n(d("[project]/.gemini/antigravity/scratch/rem-auto-mechanic/node_modules/next/dist/client/components/builtin/global-error.js"))},86689,a=>{"use strict";a.i(66528);var b=a.i(89441);a.n(b)},88845,a=>{a.n(a.i(86689))}];
+
+//# sourceMappingURL=10-d_next_dist_client_components_builtin_global-error_05chjg-.js.map

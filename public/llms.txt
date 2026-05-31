@@ -1,0 +1,19 @@
+# REM Auto Mobile Mechanic
+
+REM Auto Mobile Mechanic is a local mobile automotive repair service based in Rehoboth Beach, DE. 
+
+## Services
+- On-Site Diagnostic Scan
+- Brake Pad & Rotor Replacement
+- Preventative Maintenance
+- Pre-Purchase Inspection
+- Battery & Alternator Replacement
+- Starter Replacement
+
+## Contact
+- Phone: (302) 212-7643
+- Location: 2014 Ramblewood Dr, Rehoboth Beach, DE 19971
+- Hours: Monday - Sunday, 8:00 AM - 5:00 PM
+- [Book an Appointment](https://peninsula-mechanic-react.vercel.app)
+
+We travel directly to the customer's driveway, office lot, or job site to provide transparent, dealership-quality repairs without the wait.

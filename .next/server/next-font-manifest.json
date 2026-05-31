@@ -1,0 +1,13 @@
+{
+  "app": {
+    "[project]/.gemini/antigravity/scratch/rem-auto-mechanic/src/app/_not-found/page": [],
+    "[project]/.gemini/antigravity/scratch/rem-auto-mechanic/src/app/contact/page": [],
+    "[project]/.gemini/antigravity/scratch/rem-auto-mechanic/src/app/locations/[city]/page": [],
+    "[project]/.gemini/antigravity/scratch/rem-auto-mechanic/src/app/page": [],
+    "[project]/.gemini/antigravity/scratch/rem-auto-mechanic/src/app/services/[id]/page": [],
+    "[project]/.gemini/antigravity/scratch/rem-auto-mechanic/src/app/services/page": []
+  },
+  "appUsingSizeAdjust": true,
+  "pages": {},
+  "pagesUsingSizeAdjust": false
+}

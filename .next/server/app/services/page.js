@@ -1,0 +1,13 @@
+var R=require("../../chunks/ssr/[turbopack]_runtime.js")("server/app/services/page.js")
+R.c("server/chunks/ssr/[root-of-the-server]__0hpp53~._.js")
+R.c("server/chunks/ssr/10-d_next_dist_esm_build_templates_app-page_0k_s6o_.js")
+R.c("server/chunks/ssr/[root-of-the-server]__0b4387_._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__0z.7ha-._.js")
+R.c("server/chunks/ssr/_gemini_antigravity_scratch_rem-auto-mechanic_src_app_0p1_qhd._.js")
+R.c("server/chunks/ssr/10-d_next_dist_client_components_0-yr5s5._.js")
+R.c("server/chunks/ssr/10-d_next_dist_client_components_builtin_forbidden_02afkde.js")
+R.c("server/chunks/ssr/10-d_next_dist_client_components_builtin_unauthorized_0y2n.ug.js")
+R.c("server/chunks/ssr/10-d_next_dist_client_components_builtin_global-error_05chjg-.js")
+R.c("server/chunks/ssr/039k_rem-auto-mechanic__next-internal_server_app_services_page_actions_0enem--.js")
+R.m(75086)
+module.exports=R.m(75086).exports
