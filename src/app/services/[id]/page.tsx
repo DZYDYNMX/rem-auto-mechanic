@@ -27,6 +27,11 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
   return {
     title: `${title} | REM Auto`,
     description: `Professional, on-site ${title.toLowerCase()} right in your driveway. Transparent pricing and expert service in Rehoboth Beach, Delaware.`,
+    openGraph: {
+      title: `${title} | REM Auto`,
+      description: `Professional, on-site ${title.toLowerCase()} right in your driveway. Transparent pricing and expert service in Rehoboth Beach, Delaware.`,
+      images: [{ url: `/services/${id}.webp`, width: 1200, height: 630 }],
+    },
   };
 }
 

@@ -10,6 +10,20 @@ import ClientLayout from './ClientLayout';
 export const metadata: Metadata = {
   title: 'REM Auto | Mobile Mechanic in Rehoboth Beach, DE',
   description: 'Your trusted mobile mechanic serving Rehoboth Beach and surrounding Delaware areas. We come directly to you for mobile auto repair, brake pad replacement, check engine light diagnostics, alternator replacement, and routine maintenance.',
+  openGraph: {
+    title: 'REM Auto | Mobile Mechanic in Rehoboth Beach, DE',
+    description: 'Your trusted mobile mechanic serving Rehoboth Beach, Lewes, and Dewey Beach. We come directly to your driveway for professional auto repair.',
+    url: 'https://remautomechanic.com',
+    siteName: 'REM Auto Mobile Mechanic',
+    images: [{ url: '/hero.webp', width: 1200, height: 630 }],
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'REM Auto | Mobile Mechanic in Rehoboth Beach, DE',
+    description: 'Your trusted mobile mechanic serving Rehoboth Beach, Lewes, and Dewey Beach. We come directly to your driveway for professional auto repair.',
+    images: ['/hero.webp'],
+  },
 };
 
 export default function RootLayout({
