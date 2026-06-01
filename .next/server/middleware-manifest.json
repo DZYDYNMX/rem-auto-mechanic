@@ -2,5 +2,106 @@
   "version": 3,
   "middleware": {},
   "sortedMiddleware": [],
-  "functions": {}
+  "functions": {
+    "/locations/[city]/page": {
+      "files": [
+        "server/middleware-build-manifest.js",
+        "server/interception-route-rewrite-manifest.js",
+        "required-server-files.js",
+        "server/next-font-manifest.js",
+        "server/server-reference-manifest.js",
+        "server/edge/chunks/ssr/10-d_0ug~l.8._.js",
+        "server/edge/chunks/ssr/10-d_next_dist_esm_10tg87j._.js",
+        "server/edge/chunks/ssr/_gemini_antigravity_scratch_rem-auto-mechanic_0p6y-t8._.js",
+        "server/edge/chunks/ssr/10-d_next_dist_0ov40on._.js",
+        "server/edge/chunks/ssr/10-d_0dpvoxr._.js",
+        "server/edge/chunks/ssr/10-d_0i1tn.0._.js",
+        "server/edge/chunks/ssr/10-d_next_dist_0edru7.._.js",
+        "server/edge/chunks/ssr/10-d_next_dist_0c53c4p._.js",
+        "server/edge/chunks/ssr/_gemini_antigravity_scratch_rem-auto-mechanic_09z7so-._.js",
+        "server/app/locations/[city]/page_client-reference-manifest.js",
+        "server/edge/chunks/ssr/0.cp__next-internal_server_app_locations_[city]_page_actions_0t8yt4n.js",
+        "server/edge/chunks/ssr/10-d_0uggfpi._.js",
+        "server/edge/chunks/ssr/_gemini_antigravity_scratch_rem-auto-mechanic_0vfbslh._.js",
+        "server/edge/chunks/ssr/10-d_next_dist_esm_build_templates_edge-ssr-app_0lyp8rj.js",
+        "server/edge/chunks/ssr/10-d_0sxo5y2._.js",
+        "server/edge/chunks/ssr/10-d_next_dist_0yubnn-._.js",
+        "server/edge/chunks/ssr/10-d_next_dist_0emqu7_._.js",
+        "server/edge/chunks/ssr/10-d_next_dist_compiled_057s9wc._.js",
+        "server/edge/chunks/ssr/10-d_next_dist_102~ab.._.js",
+        "server/edge/chunks/ssr/[root-of-the-server]__0p.kao9._.js",
+        "server/edge/chunks/ssr/[root-of-the-server]__0~q8au~._.js",
+        "server/edge/chunks/ssr/0tl__next_dist_esm_build_templates_edge-wrapper_07l-985.js",
+        "server/app/locations/[city]/page/react-loadable-manifest.js"
+      ],
+      "name": "app/locations/[city]/page",
+      "page": "/locations/[city]/page",
+      "entrypoint": "server/edge/chunks/ssr/0tl__next_dist_esm_build_templates_edge-wrapper_07l-985.js",
+      "matchers": [
+        {
+          "regexp": "^/locations/(?P<nxtPcity>[^/]+?)(?:/)?$",
+          "originalSource": "/locations/[city]"
+        }
+      ],
+      "wasm": [],
+      "assets": [],
+      "env": {
+        "__NEXT_BUILD_ID": "XBQgzH26WLVkCHjHHYrm1",
+        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "o5lTigM0CvfrVl/8kB81Jx6AIFDmAckwTV2jUW1dXRc=",
+        "__NEXT_PREVIEW_MODE_ID": "28d943afd1514b78527c1c27852ac99f",
+        "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "ffac8ffdfc69f144cb6d82192e036ab1f5da984d62dcf8c303d9b7303d16e370",
+        "__NEXT_PREVIEW_MODE_SIGNING_KEY": "19cbee31bcec41bfa5dbfaa181376f13bf715177668892a852d4b23a4de6cbc0"
+      }
+    },
+    "/services/[id]/page": {
+      "files": [
+        "server/middleware-build-manifest.js",
+        "server/interception-route-rewrite-manifest.js",
+        "required-server-files.js",
+        "server/next-font-manifest.js",
+        "server/server-reference-manifest.js",
+        "server/edge/chunks/ssr/10-d_0ug~l.8._.js",
+        "server/edge/chunks/ssr/10-d_next_dist_esm_10tg87j._.js",
+        "server/edge/chunks/ssr/_gemini_antigravity_scratch_rem-auto-mechanic_0p6y-t8._.js",
+        "server/edge/chunks/ssr/10-d_next_dist_0ov40on._.js",
+        "server/edge/chunks/ssr/10-d_0dpvoxr._.js",
+        "server/edge/chunks/ssr/10-d_0i1tn.0._.js",
+        "server/edge/chunks/ssr/10-d_next_dist_0edru7.._.js",
+        "server/edge/chunks/ssr/10-d_next_dist_0c53c4p._.js",
+        "server/edge/chunks/ssr/_gemini_antigravity_scratch_rem-auto-mechanic_131.sc.._.js",
+        "server/app/services/[id]/page_client-reference-manifest.js",
+        "server/edge/chunks/ssr/039k_rem-auto-mechanic__next-internal_server_app_services_[id]_page_actions_0wjwp3x.js",
+        "server/edge/chunks/ssr/10-d_0uggfpi._.js",
+        "server/edge/chunks/ssr/_gemini_antigravity_scratch_rem-auto-mechanic_0gqa1__._.js",
+        "server/edge/chunks/ssr/10-d_next_dist_esm_build_templates_edge-ssr-app_0wpfe68.js",
+        "server/edge/chunks/ssr/10-d_0sxo5y2._.js",
+        "server/edge/chunks/ssr/10-d_next_dist_0yubnn-._.js",
+        "server/edge/chunks/ssr/10-d_next_dist_0emqu7_._.js",
+        "server/edge/chunks/ssr/10-d_next_dist_compiled_057s9wc._.js",
+        "server/edge/chunks/ssr/10-d_next_dist_102~ab.._.js",
+        "server/edge/chunks/ssr/[root-of-the-server]__0p.kao9._.js",
+        "server/edge/chunks/ssr/[root-of-the-server]__0~q8au~._.js",
+        "server/edge/chunks/ssr/0tl__next_dist_esm_build_templates_edge-wrapper_0onl26j.js",
+        "server/app/services/[id]/page/react-loadable-manifest.js"
+      ],
+      "name": "app/services/[id]/page",
+      "page": "/services/[id]/page",
+      "entrypoint": "server/edge/chunks/ssr/0tl__next_dist_esm_build_templates_edge-wrapper_0onl26j.js",
+      "matchers": [
+        {
+          "regexp": "^/services/(?P<nxtPid>[^/]+?)(?:/)?$",
+          "originalSource": "/services/[id]"
+        }
+      ],
+      "wasm": [],
+      "assets": [],
+      "env": {
+        "__NEXT_BUILD_ID": "XBQgzH26WLVkCHjHHYrm1",
+        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "o5lTigM0CvfrVl/8kB81Jx6AIFDmAckwTV2jUW1dXRc=",
+        "__NEXT_PREVIEW_MODE_ID": "28d943afd1514b78527c1c27852ac99f",
+        "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "ffac8ffdfc69f144cb6d82192e036ab1f5da984d62dcf8c303d9b7303d16e370",
+        "__NEXT_PREVIEW_MODE_SIGNING_KEY": "19cbee31bcec41bfa5dbfaa181376f13bf715177668892a852d4b23a4de6cbc0"
+      }
+    }
+  }
 }
