@@ -103,19 +103,24 @@ export const HomeSection: React.FC = () => {
           </div>
         </motion.div>
 
-        {/* About Section */}
+        {/* SEO Rich Description Section */}
         <motion.div
           variants={itemVariants}
           className="service-card"
-          style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}
+          style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}
         >
-          <div>
-            <h2 style={{ fontSize: '20px', color: 'var(--navy)', margin: 0, fontWeight: 800 }}>Honest Prices. Real Experience.</h2>
-            <span style={{ color: '#d85816', fontSize: '13px', fontWeight: 700, textTransform: 'uppercase' }}>Serving Rehoboth Beach, DE</span>
+          <h2 style={{ fontSize: '22px', color: 'var(--text-primary)', margin: 0, fontWeight: 800 }}>Reliable Mobile Auto Repair in Rehoboth Beach, Delaware</h2>
+          <div style={{ color: 'var(--text-secondary)', fontSize: '15px', lineHeight: '1.7', display: 'flex', flexDirection: 'column', gap: '12px' }}>
+            <p style={{ margin: 0 }}>
+              REM Auto is Rehoboth Beach's premier mobile mechanic service, bringing top-tier auto repair directly to your driveway, office, or vacation rental. Serving the entire Delaware coastal area - including Lewes and Dewey Beach - we specialize in restoring your vehicle to peak performance without you ever having to leave your home or interrupt your beach vacation.
+            </p>
+            <p style={{ margin: 0 }}>
+              Our professional mobile repair services go far beyond a standard oil change. We offer meticulous check engine light diagnostics, electrical system troubleshooting, and preventative maintenance to keep your engine running smoothly. On the mechanical side, our services include advanced brake pad and rotor replacements, alternator swaps, starter motor installations, and comprehensive pre-purchase vehicle inspections that protect you from hidden mechanical failures and costly future repairs.
+            </p>
+            <p style={{ margin: 0 }}>
+              Whether you drive a daily commuter, a luxury sedan, or a heavy-duty truck, our fully-equipped mobile mechanic vans carry professional-grade diagnostic scanners and high-quality OEM replacement parts. Skip the long wait times at the local dealership and let REM Auto deliver transparent, honest, and dealership-quality repairs right at your doorstep. Book your mobile diagnostic or repair service today and experience the ultimate convenience in mobile automotive care.
+            </p>
           </div>
-          <p style={{ color: 'var(--text-secondary)', fontSize: '15px', lineHeight: '1.6', margin: 0 }}>
-            Dealerships overcharge and shops make you wait for weeks. We bring professional mechanic services straight to your home, office, or roadside breakdown. Get dealership-quality repairs with transparent pricing and no surprises.
-          </p>
         </motion.div>
 
 
@@ -131,7 +136,7 @@ export const HomeSection: React.FC = () => {
         </motion.div>
 
         {/* Business Hours */}
-        <motion.div variants={itemVariants} className="service-card">
+        <motion.div variants={itemVariants} style={{ maxWidth: '640px', width: '100%', margin: '0 auto', padding: '0 16px' }}>
           <div style={{ marginBottom: '14px', display: 'flex', alignItems: 'center', gap: '8px' }}>
             <h3 style={{ fontSize: '20px', color: 'var(--navy)', margin: 0, fontWeight: 800 }}>Business Hours</h3>
           </div>

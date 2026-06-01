@@ -19,7 +19,7 @@ export const Header: React.FC<HeaderProps> = ({ activeSection }) => {
   return (
     <header className="app-header">
       <div style={{ display: 'flex', flexDirection: 'column', gap: '0px', lineHeight: 1 }}>
-        <h1 style={{ fontSize: '22px', margin: 0, fontWeight: 800, letterSpacing: '0.02em', color: '#ffffff', textTransform: 'uppercase' }}>
+        <h1 style={{ fontSize: '28px', margin: 0, fontWeight: 800, letterSpacing: '0.02em', color: '#ffffff', textTransform: 'uppercase' }}>
           REM Auto
         </h1>
         <span style={{ fontSize: '12px', color: 'var(--accent-orange)', fontWeight: 800, letterSpacing: '0.15em', textTransform: 'uppercase', paddingLeft: '0.05em' }}>
